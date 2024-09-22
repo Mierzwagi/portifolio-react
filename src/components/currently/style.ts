@@ -3,13 +3,19 @@ import styled from "styled-components";
 export const CurrentlyContainerImg = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 8px 80px 8px 34px;
-  border: 1px solid var(--white-color);
-  margin-top: -4px;
+  padding: 8px;
+  border: 1px solid var(--gray-color);
+  width: 402px;
+  gap: 10px;
 
   p{
+    color: var(--gray-color);
+    font-size: 16px;
+    font-family: "Fira Code", monospace;
+  }
+  span{
     color: var(--white-color);
+    font-weight: bold;
   }
 `;
 export const Square = styled.div`

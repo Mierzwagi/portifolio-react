@@ -5,7 +5,7 @@ export function CurrentlyPortifolio() {
   return (
     <CurrentlyContainerImg>
       <Square> </Square>
-      <p>Currently working on Portfolio</p>
+      <p>Currently working on <span>Portfolio</span></p>
     </CurrentlyContainerImg>
   );
 }
