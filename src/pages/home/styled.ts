@@ -111,7 +111,7 @@ export const ContainerTitle = styled.div`
   display: flex;
   justify-content: space-between;
 
-  margin: 74px 0 48px 0 ;
+  margin: 74px 0 48px 0;
 
   button {
     border: none;
@@ -144,7 +144,22 @@ export const Title = styled.div`
   }
 `;
 
+export const SectionSkills = styled.section`
+  width: 100%;
+`;
 export const ConatinerAticles = styled.div`
   display: flex;
   gap: 16px;
 `;
+
+export const SkillsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 59px;
+`;
+
+export const SkillsArticles = styled.article`
+  width: 178px;
+`;
+

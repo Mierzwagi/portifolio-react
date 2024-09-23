@@ -1,6 +1,18 @@
 import chertNode from "../../assets/image/chertNodes.jpg"
 import { ArticleContainer, ButtonContainer, ButtonProjects, LanguagesTypes, ProjectDescriptions } from "./style";
 
+
+interface CardCardProjects{
+  project_url: string;
+  type: 'paragraph' | 'link';
+  content: string;
+}
+
+export interface CardProps{
+  card: CardCardProjects;  // Propriedade que recebe um objeto CardCardProjects
+}
+
+
 export default function CardProjects() {
   return (
     <ArticleContainer>
